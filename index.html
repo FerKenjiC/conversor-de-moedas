@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor de Moedas</title>
+
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="titulo">Conversor de Moedas</h1>
+        <p class="subtitulo">Descubra os vlaores em Reais/R$</p>
+
+        <img src="./src/imagens/logo-imersao-conversor-de-moedas.svg" alt="logo Imersão Dev" class="logo"><br><br>
+
+        <label for="moeda">Dólar</label><br>
+        <input type="number" id="valorDolar" size="2" /><br>
+        <button type="submit" onclick="ConverterDolar()">Converter</button>
+        <h2 id="dolarConvertido"></h2>
+
+        <label for="moeda">Euro</label><br>
+        <input type="number" id="valorEuro" size="2" /><br>
+        <button type="submit" onclick="ConverterEuro()" Converter>Converter</button>
+        <h2 id="euroConvertido"></h2>
+
+        <label for="moeda">Bitcoin</label><br>
+        <input type="number" id="valorBitcoin" size="2" /><br>
+        <button type="submit" onclick="ConverterBitcoin()" Converter>Converter</button>
+        <h2 id="bitcoinConvertido"></h2>
+    </div>
+
+    <a href="https://alura.com.br/" target="_blank">
+        <img src="https://www.alura.com.br/assets/img/home/alura-logo.svg" alt="Logo da Alura" class="logo-alura">
+    </a>
+
+    <img src="./src/imagens/bitcoin.jpg" alt=" Moeda de Bitcoin" class="fundo">
+
+    <a href="https://github.com/FerKenjiC" target="_blank">
+        <img src="./src/imagens/github.svg" alt="ícone GitHub" class="icone">
+    </a>
+
+    <script src="./src/js/index.js"></script>
+</body>
+
+</html>
